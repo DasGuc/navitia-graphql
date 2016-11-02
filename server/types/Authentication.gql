@@ -1,3 +1,4 @@
 type Authentication {
-  region(name: String): Region
+  region(id: String): Region,
+  regions: [Region]
 }

@@ -1,3 +1,4 @@
 export const TYPES = {
-  train: 'rapidtransit'
+  localTrain: 'rapidtransit',
+  train: 'train'
 };

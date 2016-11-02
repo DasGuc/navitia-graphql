@@ -1,5 +1,8 @@
 type Region {
+  id: String
   name: String,
+  status: String,
+  localTrain: LocalTrain,
   train: Train,
   metro: Metro,
   bus: Bus,

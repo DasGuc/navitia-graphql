@@ -3,6 +3,11 @@ type Train {
   line(id: String): Line
 }
 
+type LocalTrain {
+  lines(page: Int, count: Int): Lines,
+  line(id: String): Line
+}
+
 type Metro {
   lines(page: Int, count: Int): Lines,
   line(id: String): Line
