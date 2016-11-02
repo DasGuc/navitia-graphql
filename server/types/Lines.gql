@@ -1,0 +1,7 @@
+type Lines {
+  page: Int,
+  pages: Int,
+  total: Int,
+  count: Int,
+  lines: [Line]
+}

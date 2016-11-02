@@ -1,0 +1,6 @@
+type Region {
+  name: String,
+  train: Train,
+  metro: Metro,
+  bus: Bus,
+}

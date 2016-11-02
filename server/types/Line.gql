@@ -1,0 +1,8 @@
+type Line {
+  id: String,
+  name: String,
+  color: String,
+  opening_time: String,
+  closing_time: String,
+  code: String
+}

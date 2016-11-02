@@ -1,0 +1,14 @@
+type Train {
+  lines(page: Int, count: Int): Lines,
+  line(id: String): Line
+}
+
+type Metro {
+  lines(page: Int, count: Int): Lines,
+  line(id: String): Line
+}
+
+type Bus {
+  lines(page: Int, count: Int): Lines,
+  line(id: String): Line
+}
